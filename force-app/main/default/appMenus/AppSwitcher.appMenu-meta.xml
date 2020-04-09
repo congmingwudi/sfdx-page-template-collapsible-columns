@@ -68,4 +68,8 @@
         <name>Test_Page_Templates</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Test_Page_Templates_Console</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
