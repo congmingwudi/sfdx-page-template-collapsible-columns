@@ -1,0 +1,20 @@
+<design:component label="Record Detail Template - 3 Collapsible Columns">
+    <flexipage:template >
+        
+        <flexipage:region name="left" defaultWidth="SMALL">
+            <flexipage:formfactor type="LARGE" width="SMALL"/>
+            <flexipage:formfactor type="MEDIUM" width="SMALL"/>
+        </flexipage:region>
+        
+        <flexipage:region name="middle" defaultWidth="MEDIUM">
+            <flexipage:formfactor type="LARGE" width="MEDIUM"/>
+            <flexipage:formfactor type="MEDIUM" width="MEDIUM"/>
+        </flexipage:region>
+        
+        <flexipage:region name="right" defaultWidth="SMALL">
+            <flexipage:formfactor type="LARGE" width="SMALL"/>
+            <flexipage:formfactor type="MEDIUM" width="SMALL"/>
+        </flexipage:region>
+        
+    </flexipage:template>
+</design:component>

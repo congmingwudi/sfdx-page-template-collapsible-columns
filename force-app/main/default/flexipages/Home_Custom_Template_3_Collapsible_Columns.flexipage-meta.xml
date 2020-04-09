@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>context</name>
+                <value>GLOBAL</value>
+            </componentInstanceProperties>
+            <componentName>forceChatter:publisher</componentName>
+        </componentInstances>
+        <name>left</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>context</name>
+                <value>BOOKMARKS</value>
+            </componentInstanceProperties>
+            <componentName>forceChatter:exposedFeed</componentName>
+        </componentInstances>
+        <name>middle</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <componentInstances>
+            <componentName>home:recentRecordContainer</componentName>
+        </componentInstances>
+        <name>right</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>Home - Custom Template - 3 Collapsible Columns</masterLabel>
+    <template>
+        <name>HomeTemplateWith3CollapsibleColumns</name>
+    </template>
+    <type>HomePage</type>
+</FlexiPage>

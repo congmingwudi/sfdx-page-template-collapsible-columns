@@ -1,0 +1,19 @@
+minimum_cumulusci_version: '3.9.0'
+project:
+    name: sfdx-page-template-collapsible-columns
+    package:
+        name:  sfdx-page-template-collapsible-columns
+        api_version: '48.0'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/sfdx-page-template-collapsible-columns/tests
+            options:
+                outputdir: robot/sfdx-page-template-collapsible-columns/results
+
+    robot_testdoc:
+        options:
+            path: robot/sfdx-page-template-collapsible-columns/tests
+            output: robot/sfdx-page-template-collapsible-columns/doc/sfdx-page-template-collapsible-columns_tests.html
