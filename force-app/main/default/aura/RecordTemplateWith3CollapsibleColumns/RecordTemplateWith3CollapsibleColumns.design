@@ -17,4 +17,10 @@
         </flexipage:region>
         
     </flexipage:template>
+
+	<design:supportedFormFactors>
+        <design:supportedFormFactor type="Small"/>
+        <design:supportedFormFactor type="Large"/>
+    </design:supportedFormFactors>
+        
 </design:component>
